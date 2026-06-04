@@ -58,13 +58,13 @@ fun UtilityApp() {
                     icon = { Icon(Icons.Default.Home, contentDescription = "Utility") },
                     label = { Text("Utility") },
                     selected = selectedTab == "Utility",
-                    onClick = { selectedTab = "Utility" }
+                    onClick = { selectedTab = "Utility" },
                 )
                 NavigationBarItem(
                     icon = { Icon(Icons.Default.Settings, contentDescription = "Settings") },
                     label = { Text("Settings") },
                     selected = selectedTab == "Settings",
-                    onClick = { selectedTab = "Settings" }
+                    onClick = { selectedTab = "Settings" },
                 )
             }
         }
